@@ -101,10 +101,9 @@
 		2EB512671BD223E1002C75F1 /* oneproject */ = {
 			isa = PBXGroup;
 			children = (
+				2EB5129B1BD232F4002C75F1 /* Class */,
 				2EB5126B1BD223E1002C75F1 /* AppDelegate.h */,
 				2EB5126C1BD223E1002C75F1 /* AppDelegate.m */,
-				2EB5126E1BD223E1002C75F1 /* ViewController.h */,
-				2EB5126F1BD223E1002C75F1 /* ViewController.m */,
 				2EB512711BD223E1002C75F1 /* Main.storyboard */,
 				2EB512741BD223E1002C75F1 /* Assets.xcassets */,
 				2EB512761BD223E1002C75F1 /* LaunchScreen.storyboard */,
@@ -138,6 +137,15 @@
 				2EB5128F1BD223E1002C75F1 /* Info.plist */,
 			);
 			path = oneprojectUITests;
+			sourceTree = "<group>";
+		};
+		2EB5129B1BD232F4002C75F1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2EB5126E1BD223E1002C75F1 /* ViewController.h */,
+				2EB5126F1BD223E1002C75F1 /* ViewController.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

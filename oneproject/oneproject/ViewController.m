@@ -19,6 +19,8 @@
     self.view.backgroundColor = [UIColor redColor];
     UILabel *label = [[UILabel alloc]init];
     [self.view addSubview:label];
+    UIButton *but = [[UIButton alloc]init];
+    [self.view addSubview:but];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

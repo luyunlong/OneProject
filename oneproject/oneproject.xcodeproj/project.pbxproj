@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		2EB5126A1BD223E1002C75F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB512691BD223E1002C75F1 /* main.m */; };
 		2EB5126D1BD223E1002C75F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB5126C1BD223E1002C75F1 /* AppDelegate.m */; };
-		2EB512701BD223E1002C75F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB5126F1BD223E1002C75F1 /* ViewController.m */; };
 		2EB512731BD223E1002C75F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB512711BD223E1002C75F1 /* Main.storyboard */; };
 		2EB512751BD223E1002C75F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB512741BD223E1002C75F1 /* Assets.xcassets */; };
 		2EB512781BD223E1002C75F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB512761BD223E1002C75F1 /* LaunchScreen.storyboard */; };
 		2EB512831BD223E1002C75F1 /* oneprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB512821BD223E1002C75F1 /* oneprojectTests.m */; };
 		2EB5128E1BD223E1002C75F1 /* oneprojectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB5128D1BD223E1002C75F1 /* oneprojectUITests.m */; };
+		2EB5129F1BD23414002C75F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB5129E1BD23414002C75F1 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		2EB512691BD223E1002C75F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EB5126B1BD223E1002C75F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EB5126C1BD223E1002C75F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EB5126E1BD223E1002C75F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2EB5126F1BD223E1002C75F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2EB512721BD223E1002C75F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EB512741BD223E1002C75F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB512771BD223E1002C75F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		2EB512891BD223E1002C75F1 /* oneprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB5128D1BD223E1002C75F1 /* oneprojectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneprojectUITests.m; sourceTree = "<group>"; };
 		2EB5128F1BD223E1002C75F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB5129D1BD23414002C75F1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EB5129E1BD23414002C75F1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		2EB512671BD223E1002C75F1 /* oneproject */ = {
 			isa = PBXGroup;
 			children = (
-				2EB5129B1BD232F4002C75F1 /* Class */,
+				2EB5129C1BD23414002C75F1 /* class */,
 				2EB5126B1BD223E1002C75F1 /* AppDelegate.h */,
 				2EB5126C1BD223E1002C75F1 /* AppDelegate.m */,
 				2EB512711BD223E1002C75F1 /* Main.storyboard */,
@@ -139,13 +139,13 @@
 			path = oneprojectUITests;
 			sourceTree = "<group>";
 		};
-		2EB5129B1BD232F4002C75F1 /* Class */ = {
+		2EB5129C1BD23414002C75F1 /* class */ = {
 			isa = PBXGroup;
 			children = (
-				2EB5126E1BD223E1002C75F1 /* ViewController.h */,
-				2EB5126F1BD223E1002C75F1 /* ViewController.m */,
+				2EB5129D1BD23414002C75F1 /* ViewController.h */,
+				2EB5129E1BD23414002C75F1 /* ViewController.m */,
 			);
-			name = Class;
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB512701BD223E1002C75F1 /* ViewController.m in Sources */,
+				2EB5129F1BD23414002C75F1 /* ViewController.m in Sources */,
 				2EB5126D1BD223E1002C75F1 /* AppDelegate.m in Sources */,
 				2EB5126A1BD223E1002C75F1 /* main.m in Sources */,
 			);
